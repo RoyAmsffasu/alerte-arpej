@@ -7,10 +7,12 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 # Ajoutez ici les pages des résidences parisiennes qui vous intéressent.
-RESIDENCES = [
-    "https://www.arpej.fr/en/residence/student-residence-paris-5th-scipion-arpej/",
-    "https://www.arpej.fr/en/residence/danielle-casanova",
+RESIDENCES = [RESIDENCES = [
+    "https://www.arpej.fr/en/residence/nicolas-appert/",  # Ivry, M7
+    "https://www.arpej.fr/en/residence/porte-ditalie/",  # Kremlin-Bicêtre, M7
+    "https://www.arpej.fr/en/residence/paris/",  # EOLE, Paris 19e 
 ]
+    
 STATE = Path("state.json")
 
 
